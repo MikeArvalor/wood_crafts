@@ -1,0 +1,95 @@
+.slider_wrapper{
+    margin-bottom: 50px;
+    & .slider_wrapper_title{
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 50px;
+       & p{
+        color: #2b3033;
+        font-size: 44px;
+        font-weight: 800;
+        font-style: normal;
+       }
+    }
+    & .slider_button{
+        text-align: center;
+      display: flex;
+      margin: 0 auto;
+      justify-content: center;
+      margin-bottom: 50px;
+        & .line{
+            background: #cecece;
+    width: 80px;
+            height: 1px;
+            margin-top: 15px;
+        }
+        & .left_button_slider{
+            margin: 0 10px 0 10px;
+            width: 30px;
+            height: 30px;
+            background-color: #fcfcfc;
+            border-radius: 2px;
+            border: 1px solid #f1f1f1;
+            box-shadow: 1px 1px 1px #cecece;
+            & i{
+                color: #333333;
+            }
+            
+
+        }
+        & .left_button_slider:hover{
+            box-shadow: 4px 4px 4px #cecece;
+            cursor: pointer;
+        }
+        & .right_button_slider{
+            margin: 0 10px 0 10px;
+            width: 30px;
+            height: 30px;
+            background-color: #fcfcfc;
+            border-radius: 2px;
+            border: 1px solid #f1f1f1;
+            box-shadow: 1px 1px 1px #cecece;
+            & i{
+                color: #333333;
+            }
+            
+            
+        }
+        & .right_button_slider:hover{
+            box-shadow: 4px 4px 4px #cecece;
+            cursor: pointer;
+        }
+        
+    }
+    & .slider_block{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        & .card{
+            & .scale {
+                display: inline-block; 
+                overflow: hidden; 
+               }
+            & img{transition: all 1s ease;display: block;
+                overflow: hidden;}
+            & img:hover{
+                transform: scale(1.2);
+                transition: all 1s ease;
+            }
+            & .text_under_photo{
+                text-align: center;
+            }
+            & .name_of_card{
+                font-size: 13px;
+                text-transform: uppercase;
+                font-weight: bold;    
+                text-align: center;        
+                color: #333333;
+            }
+            & .price_of_card{
+                color: #333333;
+                font-weight: 800;
+                text-align: center;
+            }
+        }
+    }
+}

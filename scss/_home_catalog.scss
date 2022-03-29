@@ -1,0 +1,64 @@
+.home_catalog_wrapper{
+    text-align: center;
+    margin-bottom: 50px;
+    & .back_home_catalog{
+        background: #f5f4f1 url(https://artfolk.by/wp-content/uploads/2016/12/rose-overlay.png?id=321);
+        & .view_img{
+            & img{
+                width: 100%;
+            }
+        }
+        & .container{
+            & .home_catalog_title{
+                letter-spacing: 1px;
+                color: #2b3033;
+                font-size: 34px;
+                font-weight: 700;
+                margin-bottom: 50px;
+            }
+            & .home_catalog_card{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                
+                grid-column-gap: 30px;
+                & .card{
+                    margin-bottom: 50px;
+                    & .card_img{
+                        display: inline-block; 
+                        overflow: hidden; 
+                        border-radius: 10px;
+                        margin-bottom: 10px;
+                        & img{
+                            display: block;
+                            overflow: hidden;
+                            transition: all 1s ease;
+                        }
+                        & img:hover{
+                            transform: scale(1.2);
+                            transition: all 1s ease;
+                        }
+                    }
+                    & .signature{
+                        width: 100%;
+                        padding: 20px 0;
+                        background: #ffffff;
+                        border-bottom: 5px solid #f9f9f9; 
+                        & .signature_title{
+                            font-size: 13px;
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            color: #333333;
+                            margin-bottom: 20px;
+                        }
+                        & .signature_price{
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            color: #333333;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
