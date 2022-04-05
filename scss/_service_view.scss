@@ -1,0 +1,36 @@
+.contact_view_back_service{
+    background-attachment: fixed !important; 
+    background: url(../img/back_service_view.jpg) no-repeat;
+}
+.service_view{
+    margin-top: 50px;
+    margin-bottom: 80px;
+    & .service_view_wrapper{
+        & .link_service_info{
+            color: #ffffff;
+            margin-bottom: 20px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        & .service_title{
+            font-size: 50px;
+            color: #ffffff;
+            font-weight: 800;
+            line-height: normal;
+            letter-spacing: 1px;
+        }
+        & .service_text{
+            font-size: 21px;
+            color: #ffffff;
+            line-height: normal;
+            letter-spacing: 1px;
+            margin-bottom: 50px;
+        }
+    }
+    & .view_img{
+        height: 70px;
+        & img{
+            width: 100%;
+        }
+    }
+}

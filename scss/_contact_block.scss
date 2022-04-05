@@ -1,0 +1,75 @@
+
+    .contact_wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 50px;
+        margin-bottom: 80px;
+        margin-top: 120px;
+        & .left_block{
+            & .form_contact{
+                display: grid;
+                grid-template-columns: 1fr;
+                & label{
+                    margin-bottom: 8px;
+                    font-weight: 600;
+                    color: #333333;
+                    font-size: 14px;
+                }
+                & input{
+                    padding: 10px 4px;
+                    background: #fcfcfc;
+                    border-radius: 5px;
+                    border: 1px solid;
+                    border-color: #ddd #eee #eee #ddd;  
+                    margin-bottom: 8px;
+                }
+                & textarea{
+                    padding: 80px 4px;
+                    background: #fcfcfc;
+                    border-radius: 5px;
+                    border: 1px solid;
+                    border-color: #ddd #eee #eee #ddd;  
+                    margin-bottom: 8px;
+                    margin-bottom: 20px;
+                }
+            }
+            & .contact_button{
+                font-family: "Montserrat";
+                border-color: #795548;
+                color: #333333;
+                border-radius: 2em;
+                font-size: 14px;
+                font-weight: 600;
+                padding: 14px 20px;
+                 text-decoration: none;
+                 border: 1px dashed;
+            }
+            & .contact_button:hover{
+                color: #795548;
+                cursor: pointer;
+            }
+            
+        }
+        & .right_block{
+            & .title_contact_block{
+                color: #2b3033;
+                font-size: 24px;
+                font-weight: 800;
+            }
+            & .title_contact_text{
+                color: #2b3033;
+                font-size: 18px;
+            }
+            & .contact_block{
+                padding: 0;
+             
+                & li{
+                    text-decoration: none;
+                    list-style-type: none;
+                   color: #333333;
+                   font-size: 18px;
+                   margin-bottom: 8px;
+                }
+            }
+        }
+    }

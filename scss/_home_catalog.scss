@@ -4,6 +4,7 @@
     & .back_home_catalog{
         background: #f5f4f1 url(https://artfolk.by/wp-content/uploads/2016/12/rose-overlay.png?id=321);
         & .view_img{
+            height: 70px;
             & img{
                 width: 100%;
             }
@@ -57,6 +58,21 @@
                             
                         }
                     }
+                }
+            }
+            & .button_catalog{
+                margin-bottom: 50px;
+                & a{
+                    text-decoration: none;
+                    border-color: rgb(187, 146, 100);
+                    color: rgb(187, 146, 100);
+                    border-radius: 2em;
+                    border-width: 2px;
+                    font-size: 18px;
+                    padding: 15px;
+                    border: 1px solid;
+                    border-style: dashed;
+                  
                 }
             }
         }

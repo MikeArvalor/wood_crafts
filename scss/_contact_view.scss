@@ -1,0 +1,42 @@
+
+    .contact_additional{
+        border-bottom: 1px solid #ffffff;
+        background: rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);   
+    
+    }
+    .contact_view_back{
+        background-attachment: fixed !important; 
+        background: url(../img/back_contact_view.jpg) no-repeat;
+        
+        
+    }
+
+    .contact_view_wrapper{
+        margin-bottom: 50px;
+        margin-top: 80px;
+        text-align: center;
+        color: #ffffff;
+        & .contact_view_title{
+            font-size: 20px;
+            & .line_contact_view{
+                width: 1px;
+                padding: 0 10px 0 10px;
+            }
+        }
+        & .contact_view_text{
+            font-size: 50px;
+            margin-bottom:80px ;
+        }
+    }
+    .contact_view{
+       
+        margin-bottom: 50px;
+        & .view_img{
+            height: 70px;
+            & img{
+                width: 100%;
+                
+            }
+        }
+    }
